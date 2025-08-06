@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-ml-api
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
+    autoDeploy: true
+    region: oregon
